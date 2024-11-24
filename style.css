@@ -112,6 +112,12 @@
 .moreservices{
     margin-top: 80px !important;
 }
+.moreservices h2, .part2 h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.service-item2{
+    margin-top: -50px !important;
+}
 .choose{
     position: relative;
     background-image: url("Background-image2.jpg");
@@ -154,7 +160,7 @@
     margin-top: 40px;
 }
 .test{
-    margin-top: 50px !important;
+    margin-top: 100px !important;
 }
 .group{
     padding-top: 30px;
@@ -163,6 +169,33 @@
     width: 50px;
     border-radius: 50%;
     border: none;
+}
+
+.faq{
+    margin-top: 100px !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: rgb(216, 26, 26) !important;
+    font-weight: bold;
+}
+
+  /* Ensure the caret icon also changes color */
+.accordion-button:not(.collapsed)::after {
+    color: rgb(183, 39, 39) !important;
+    filter: invert(48%) sepia(97%) saturate(1842%) hue-rotate(348deg) brightness(102%) contrast(101%);
+}
+.first{
+    color: rgb(216, 26, 26) !important;
+    font-weight: bold;
+}
+.accordion-body{
+    font-weight: bold;
+}
+.accordion-item:focus{
+    box-shadow: none !important;
+    outline: none !important;
+    border: none !important;
 }
 .card-footer{
     position: relative;
