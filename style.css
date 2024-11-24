@@ -192,11 +192,14 @@
 .accordion-body{
     font-weight: bold;
 }
-.accordion-item:focus{
-    box-shadow: none !important;
+
+.accordion-button:focus,
+.accordion-button:active,
+.accordion-button:not(.collapsed):focus {
     outline: none !important;
-    border: none !important;
+    box-shadow: none !important;
 }
+
 .card-footer{
     position: relative;
 }
@@ -382,27 +385,27 @@
 }
 @media (min-width: 400px) and (max-width: 550px){
     .logo{
-        width: 120px;
+        width: 90px !important;
     }
     .bg-image{
         height: 250px;
     }
     .top-right {
-        top: 70px;
+        top: 80px;
         right: 160px;
         font-size: 8pt !important;
     }
     
     .right {
-        top: 95px;
-        right: 185px;
-        font-size: 12pt;
+        top: 105px;
+        right: 195px;
+        font-size: 11pt;
     }
     
     .bottom-right {
-        top: 175px;
-        right: 155px;
-        font-size: xx-small;
+        top: 180px;
+        right: 175px;
+        font-size: 6pt;
     }
     .bottom {
         top: 215px;
