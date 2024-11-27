@@ -124,7 +124,7 @@
 }
 .choose{
     position: relative;
-    background-image: url("Background-image2.jpg");
+    background-image: url("bg.1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -189,10 +189,12 @@
     color: rgb(183, 39, 39) !important;
     filter: invert(48%) sepia(97%) saturate(1842%) hue-rotate(348deg) brightness(102%) contrast(101%);
 }
+
 .first{
     color: rgb(216, 26, 26) !important;
     font-weight: bold;
 }
+
 .accordion-body{
     font-weight: bold;
 }
