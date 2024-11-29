@@ -14,3 +14,21 @@ $(document).ready(function () {
       }
   });
 });
+
+
+gsap.fromTo(
+    ".bg-image",
+    { opacity: 0, scale: 1.2 },
+    { opacity: 1, scale: 1, duration: 2, ease: "power2.out" }
+);
+
+
+document.querySelectorAll(".moreservices, .part2").forEach((card) => {
+  card.addEventListener("mouseenter", () => {
+      gsap.to(card, { scale: 1.05, duration: 0.3 });
+  });
+  card.addEventListener("mouseleave", () => {
+      gsap.to(card, { scale: 1, duration: 0.3 });
+  });
+});
+
