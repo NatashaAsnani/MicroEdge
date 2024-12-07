@@ -35,7 +35,7 @@
 }
 
 .bg-image{
-    height: 650px;
+    height: 600px;
     padding-top: 60px !important;
 }
 
@@ -60,12 +60,12 @@
 
 .bottom-right {
     position: absolute;
-    bottom: 170px;
+    bottom: 130px;
     right: 220px;
 }
 .bottom {
     position: absolute;
-    bottom: 80px;
+    bottom: 30px;
     right: 540px;
 }
 .phone{
@@ -78,7 +78,7 @@
 
 .icons{
     position: absolute;
-    bottom: 65px;
+    bottom: 20px;
     right: 200px;
 }
 .second{
